@@ -1,0 +1,25 @@
+.onebox-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .thread-list {
+    width: 300px;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+  }
+  
+  .thread-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+  
+  .thread-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .thread-detail {
+    flex-grow: 1;
+    padding: 20px;
+  }
